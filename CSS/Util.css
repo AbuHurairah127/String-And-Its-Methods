@@ -1,0 +1,44 @@
+:root{
+    --borderColor: rgba(1, 1, 98, 0.787);
+}
+.input-group{
+    border: 1px solid var(--borderColor);
+    min-width: 45vw;
+    padding: 4vw;
+}
+.form-control{
+    background-color: transparent;
+    min-width: none;
+}
+.originalStrings{
+    border: 1px solid rgba(1, 1, 98, 0.787);
+    background-color: rgba(0, 0, 66, 0.952);
+    color: rgb(255, 245, 227);
+    min-width: 45vw;
+    min-height: 10vh;
+    border-radius: 5px;
+    padding: 1vw 8vw;
+    text-align: center;
+}
+.buttons{
+    border: 1px double var(--borderColor);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-width: 45vw;
+    max-width: 45vw;
+    /* min-height: 41vh;/ */
+    padding: 0vw 2vw;
+}
+.btns {
+    margin: 3px;
+    min-width: 17vw;
+}
+.results{
+    border: 1px solid var(--borderColor);
+    border-radius: 5px;
+    min-width: 45vw;
+    /* max-width: 50vw; */
+    min-height: 35vh;
+}
